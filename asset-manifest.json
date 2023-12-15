@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/stewwwwwww/landing-page.git/static/css/main.fa1dcdab.css",
+    "main.js": "/stewwwwwww/landing-page.git/static/js/main.365393b3.js",
+    "static/media/vid.mp4": "/stewwwwwww/landing-page.git/static/media/vid.d630e0c68f8dd4a51fd7.mp4",
+    "static/media/barbackground.jpg": "/stewwwwwww/landing-page.git/static/media/barbackground.392cedf08c4b0eeec228.jpg",
+    "static/media/background2.jpg": "/stewwwwwww/landing-page.git/static/media/background2.9e92847c3980cd7dd02c.jpg",
+    "static/media/cat.png": "/stewwwwwww/landing-page.git/static/media/cat.2437bf8828c0ff3d42ae.png",
+    "static/media/article3.jpg": "/stewwwwwww/landing-page.git/static/media/article3.a012d53a06729c2eaefc.jpg",
+    "static/media/article1.jpg": "/stewwwwwww/landing-page.git/static/media/article1.517c8d331f0a56958d57.jpg",
+    "static/media/article2.jpg": "/stewwwwwww/landing-page.git/static/media/article2.43872b94de76e1056cc4.jpg",
+    "static/media/kim.jpg": "/stewwwwwww/landing-page.git/static/media/kim.fb6f0b76c9dc3f1f3076.jpg",
+    "static/media/travis.jpg": "/stewwwwwww/landing-page.git/static/media/travis.d1452a5975656f5c45fc.jpg",
+    "static/media/phong.jpg": "/stewwwwwww/landing-page.git/static/media/phong.5d06ea31d10c9837a8aa.jpg",
+    "static/media/alcCup.png": "/stewwwwwww/landing-page.git/static/media/alcCup.05f6e2625c4b07867701.png",
+    "static/media/burger.jpg": "/stewwwwwww/landing-page.git/static/media/burger.d4c1c43199c082aed5c6.jpg",
+    "static/media/burgerLogo.png": "/stewwwwwww/landing-page.git/static/media/burgerLogo.28ee3df8ba76ffeb5ba8.png",
+    "static/media/finedining.jpg": "/stewwwwwww/landing-page.git/static/media/finedining.c49c9a30395d34feb92a.jpg",
+    "static/media/mLogo.png": "/stewwwwwww/landing-page.git/static/media/mLogo.e3fdbc880c5e290388b8.png",
+    "static/media/lebron.jpg": "/stewwwwwww/landing-page.git/static/media/lebron.c4b262ae8efcc22f22ce.jpg",
+    "static/media/fries.png": "/stewwwwwww/landing-page.git/static/media/fries.b6a964ec4671a6fd3b87.png",
+    "static/media/khaBanh.jpg": "/stewwwwwww/landing-page.git/static/media/khaBanh.a86be571e02d678ee6d1.jpg",
+    "static/media/awardicon.png": "/stewwwwwww/landing-page.git/static/media/awardicon.1411adb53c6d6990ca06.png",
+    "index.html": "/stewwwwwww/landing-page.git/index.html",
+    "main.fa1dcdab.css.map": "/stewwwwwww/landing-page.git/static/css/main.fa1dcdab.css.map",
+    "main.365393b3.js.map": "/stewwwwwww/landing-page.git/static/js/main.365393b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa1dcdab.css",
+    "static/js/main.365393b3.js"
+  ]
+}
