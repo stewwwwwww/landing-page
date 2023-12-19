@@ -1,0 +1,64 @@
+
+.aboutContainer {
+  background: url("../assets/background2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 970px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fries {
+  width: 444px;
+  height: 507px;
+}
+
+.linear1 {
+  height: 2px;
+  width: 45px;
+  background-image: linear-gradient(
+    to right,
+    rgba(220, 202, 135, 1),
+    rgba(220, 202, 135, 1),
+    rgba(220, 202, 135, 0.24)
+  );
+}
+.linear2 {
+  height: 2px;
+  width: 45px;
+  background-image: linear-gradient(
+    to left,
+    rgba(220, 202, 135, 1),
+    rgba(220, 202, 135, 1),
+    rgba(220, 202, 135, 0.24)
+  );
+}
+.aboutHistory{
+    width:  600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    right:0;
+    text-align: end;
+}
+.aboutContainer h2{
+    color: #DCCA87
+}
+.aboutContainer p{
+    color: #AAA;
+}
+.aboutContainer button{
+  margin-top: 24px;
+}
+.aboutAbout{
+  width:  600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    right:0;
+    text-align: start;
+}
