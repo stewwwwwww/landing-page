@@ -69,13 +69,6 @@
 .secondMenu p {
   color: #aaa;
 }
-
-#a {
-  color: #dcca87;
-}
-#b {
-  color: #fff;
-}
 .menuItem {
   display: grid;
   height: 60px;

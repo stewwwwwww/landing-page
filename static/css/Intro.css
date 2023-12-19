@@ -14,13 +14,6 @@
   cursor: pointer;
   text-align: center;
 }
-p[class^="introNavNumber"] {
-  color: #f5efdb;
-  font-family: "Cormorant Upright", serif;
-  font-size: 24px;
-  z-index: 2;
-  padding: 20px;
-}
 .introGallery {
   width: 100vw;
   display: grid;
