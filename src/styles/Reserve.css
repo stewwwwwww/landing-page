@@ -1,0 +1,59 @@
+.reserveContainer {
+  display: flex;
+  height: 770px;
+  justify-content: center;
+  align-items: center;
+}
+
+.reserveContainer h2 {
+  color: #dcca87;
+  margin: 0;
+  margin: 0 0 45px 0;
+}
+.reserveTitle {
+  color: #fff;
+  margin: 0 0 20px 0;
+}
+.reserveContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1370px;
+  height: 470px;
+  background-color: #0c0c0c;
+  border: 1px solid rgba(220, 202, 135, 0.2);
+  position: relative;
+}
+.linear3 {
+  height: 2px;
+  width: 60px;
+  background-image: linear-gradient(
+    to left,
+    rgba(220, 202, 135, 1),
+    rgba(220, 202, 135, 0.24),
+    rgba(220, 202, 135, 1)
+  );
+  margin: 0 0 15px 0;
+}
+
+.reserveInput {
+  display: flex;
+  justify-content: space-around;
+  width: 1336px;
+  gap: 34px;
+  margin: 0 0 45px 0;
+}
+
+.reserveButton {
+  cursor: pointer;
+}
+.reservationWarining {
+  color: rgba(212, 44, 44, 0.815);
+  position: absolute;
+  bottom: 12px;
+  display: none;
+}
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}

@@ -1,0 +1,122 @@
+.introContainer {
+  display: flex;
+  justify-content: stretch;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.introNavNumbers {
+  display: flex;
+  position: absolute;
+  color: #f5efdb;
+  top: 1025px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  cursor: pointer;
+  text-align: center;
+}
+p[class^="introNavNumber"] {
+  color: #f5efdb;
+  font-family: "Cormorant Upright", serif;
+  font-size: 24px;
+  z-index: 2;
+  padding: 20px;
+}
+.introGallery {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 9.89vw 67.72vw 9.89vw;
+  grid-template-rows: 736px 92px;
+  padding: 80px 6.25vw;
+  justify-content: center;
+}
+.introHashTag {
+  display: flex;
+  grid-area: 1 / 1 / span 2 / span 1;
+  align-items: center;
+}
+.introHashTag p {
+  color: #fff;
+  font-size: 20px;
+  writing-mode: vertical-rl;
+  rotate: 180deg;
+}
+.introContent {
+  display: flex;
+  grid-area: 1 / 2 / span 1 / span 1;
+  justify-content: space-between;
+}
+
+.introContentText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 35%;
+}
+.introContentText h5 {
+  color: #fff;
+  margin: 0 0 16px 0;
+}
+.introContentText h1 {
+  color: #dcca87;
+  margin: 0 0 32px 0;
+}
+.introContentText button {
+  padding: 7px 30px;
+}
+.introContentText p {
+  margin: 0 0 32px 0;
+  color: #aaa;
+}
+.introContentLinear {
+  margin: 0 0 24px 0;
+  height: 2px;
+  width: 45px;
+  background-image: linear-gradient(
+    to left,
+    rgba(220, 202, 135, 1),
+    rgba(220, 202, 135, 1),
+    rgba(220, 202, 135, 0.24)
+  );
+}
+.introImage {
+  display: flex;
+  width: 50%;
+  position: relative;
+}
+.introImage img {
+  position: absolute;
+  width: calc(100% - 7%);
+  height: calc(100% - 7%);
+  left: 3.5%;
+  top: 3.5%;
+}
+
+.introDiv1 {
+  width: 435px;
+  height: 435px;
+  background-color: #dcca87;
+  align-self: flex-end;
+}
+.introDiv2 {
+  width: 435px;
+  height: 435px;
+  background-color: #dcca87;
+}
+.introScroll {
+  color: #dcca87;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  grid-area: 1 / 3 / span 2 / span 1;
+}
+.introLinearScroll {
+  height: 61px;
+  width: 2px;
+  background-image: linear-gradient(
+    rgba(220, 202, 135, 1),
+    rgba(220, 202, 135, 1),
+    rgba(220, 202, 135, 0.24)
+  );
+}

@@ -1,0 +1,116 @@
+.awardContainer {
+  background: url("../assets/background2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 970px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position:relative
+}
+@keyframes scale {
+  100% {
+    transform: scale(1.01);
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+.awardSignature {
+  position: absolute;
+  color: #fafafa;
+  font-family: Yellowtail;
+  opacity: 0.85;
+  font-size: 280px;
+  top: 42%;;
+  left: 54%;
+}
+.AwardImg {
+  width: 480px;
+  height: 690px;
+}
+.awardText {
+  color: #ffffff;
+  margin: 0 0 15px 0;
+}
+.awardContent h2 {
+  color: #dcca87;
+  margin: 0 0 20px 0;
+}
+.linear5 {
+  height: 2px;
+  width: 30px;
+  background-image: linear-gradient(
+    to right,
+    rgba(220, 202, 135, 1),
+    rgba(220, 202, 135, 1),
+    rgba(220, 202, 135, 0.24)
+  );
+}
+.awardContent {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 660px;
+  margin-right: 180px;
+  transform: scale(0.94);
+}
+.awardList {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  row-gap: 32px;
+  column-gap: 20px;
+}
+
+.awardItem {
+  position: relative;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 3fr;
+  height: 150px;
+  width: 380px;
+  column-gap: 50px;
+  row-gap: 20px;
+}
+.awardTitle {
+  color: #dcca87;
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 1;
+  margin: 0;
+  align-self: flex-end;
+}
+.awardDescription {
+  color: #aaa;
+  font-family: sans-serif;
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+  display: flex;
+  flex-wrap: wrap;
+  bottom: 36px;
+  align-self: start;
+  font-size: 18px;
+}
+.awardAnimatedText {
+  margin: 0;
+  padding: 0.22rem;
+  transform: scale(0.94);
+  opacity: 0;
+  filter: blur(4px);
+}
+.awardItem img {
+  position: absolute;
+  grid-row: 1 / span 2;
+  grid-column: 1 / span 1;
+  height: 105px;
+  align-self: center;
+  top: 60%;
+  transform: translate(0, -50%);
+}

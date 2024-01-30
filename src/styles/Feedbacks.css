@@ -1,0 +1,79 @@
+.feedbacksContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}
+.linear6 {
+  height: 2px;
+  width: 60px;
+  background-image: linear-gradient(
+    to left,
+    rgba(220, 202, 135, 1),
+    rgba(220, 202, 135, 0.24),
+    rgba(220, 202, 135, 1)
+  );
+  margin: 0 0 28px 0;
+}
+.feedbacksContainer h5 {
+  margin: 0 0 8px 0;
+  color: #fff;
+}
+.feedbacksContainer h2 {
+  color: rgba(220, 202, 135, 1);
+  margin: 0 0 62px 0;
+}
+.feedbackquote {
+  color: #aaa;
+  font-style: italic;
+  margin: 0;
+}
+.feedbackjob {
+  color: #f5efdb;
+  margin: 0;
+}
+.feedbackItem h4 {
+  color: #dcca87;
+  margin: 0;
+}
+
+.feedbackItems {
+  display: grid;
+  grid-template: 1fr 1fr/ 1fr 1fr;
+  width: 1300px;
+  gap: 64px;
+
+}
+.feedbackItem {
+  display: grid;
+  grid-template: 4fr 2fr 1fr / 2fr 7fr;
+  column-gap: 30px;
+  position: relative;
+}
+.celebimg {
+  width: 225px;
+  height: 225px;
+  grid-row: 1 / span 3;
+  grid-column: 1 / span 1;
+}
+.feedbackItem .feedbackquote {
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 1;
+  font-style: italic;
+}
+.feedbackItem h4 {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+}
+.feedbackItem .feedbackjob {
+  grid-row: 3 / span 1;
+  grid-column: 2 / span 1;
+}
+.feedbackquoteimg {
+  z-index: 1;
+  position: absolute;
+  width: 70px;
+  left: 155px;
+  top: 180px;
+}
